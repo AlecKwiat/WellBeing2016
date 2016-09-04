@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="healthyhouseesl.com.wellbeingapp.AntiBio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Anti1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Levaquin: Used to treat bacterial infections of the skin, bladder, kidney and prostate. It is also used to fight bacteria that cause pneumonia and bronchitis.
+Side effects: may cause immense pain, joint stiffness, bruising, swelling and other problems that may affect movement.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti1"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Anti2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space1"
+                android:lineSpacingExtra="6dp"
+                android:text="Amoxicillin: Used to treat bacterial infections fund in the ears, nose, and skin, through and urinary tract. It is used to fight bacteria such as bronchitis, pneumonia, tonsillitis and gonorrhea.
+Side effects: Stomach. Leg and chest pain, diarrhea (usually bloody or watery). Mouth and skin sores, as well as cold-like symptoms and trouble breathing.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti2"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Anti3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space2"
+                android:lineSpacingExtra="6dp"
+                android:text="Azithromycin: Used to treat, ear, skin and respiratory infections caused by bacteria. Side effects: Diarrhea, itchy and reddening skin, as well as fevers.
+
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti3"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Anti4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space3"
+                android:lineSpacingExtra="6dp"
+                android:text="Metronidazole: An antibiotic that fights bacterial infections found on the skin, stomach, joints, vagina and respiratory tract.
+Side effects: Blurred vision, confusion, fever, headaches and vomiting.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti4"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Anti5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space4"
+                android:lineSpacingExtra="6dp"
+                android:text="Erythromycin: Used to slow the growth of bacteria or complete extermination of sensitive bacteria.
+Side effects: Fever, skin rashes, severe stomach pan and vomiting.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti5"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Anti6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space5"
+                android:lineSpacingExtra="6dp"
+                android:text="Doxycycline: Treats bacteria that causes acne, intestinal infections, eye infections, urinary tract infections, and bumps.
+Side effects: Coughing, diarrhea, dark urine, joint/muscle pain, headaches and dizziness.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti6"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Anti7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space6"
+                android:lineSpacingExtra="6dp"
+                android:text="Cephalexin: Used to treat bacterial infections such as: ear, respiratory, skin, and urinary infections.
+Side effects: Diarrhea, abdominal pain, chills and fever.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti7"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Anti8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space7"
+                android:lineSpacingExtra="6dp"
+                android:text="Flucloxacillin: Used to treat ear nose and throat infections. As well as respiratory infections such as pneumonia and tonsillitis.
+Side effects: Skin rash, muscle/joint pain, liver problems and fever.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti8"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Anti9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space8"
+                android:lineSpacingExtra="6dp"
+                android:text="Ceftriaxone: An antibiotic used to stop the growth of bacteria. It is used to treat gonorrhea,meningitis, as well as ear lung and skin infections. Side effects: diarrhea, headaches, dizziness and sweating.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti9"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Anti10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space9"
+                android:lineSpacingExtra="6dp"
+                android:text="Penicillin G: used to fight a variety of bacterial infections such as meningitis, gonorrhea, and syphilis.
+Side effects: skin rashes, diarrhea, stomach aches, headaches, and fevers.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Anti10"
+                android:lineSpacingExtra="6dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Anti11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/Space10"
+                android:lineSpacingExtra="6dp"
+                android:text="Ofloxacin: Used to treat bacterial infections that cause bronchitis, chlamydia, gonorrhea, skin
+infections. Side effects: Diarrhea, dizziness, sudden pain, seizures and fever.
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

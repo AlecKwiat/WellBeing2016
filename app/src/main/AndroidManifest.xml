@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="healthyhouseesl.com.wellbeingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hh_logo_blank"
+        android:label="Well-Being"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:debuggable="true">
+        <activity android:name=".MainActivity_HomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        //the "android:label" is responsible for the name of the app that is seen in the home screen
+        as well as the top of the app for every page
+        //the "android:icon" g+-is responsible for what image shows up for the app in the home screen,
+        it is placed in the mipmap folders and called upon
+        <activity
+            android:name=".FaqActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.FaqActivity" />
+                //this calls the id form the (tools:context=)
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IllnessInfo">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.IllnessInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AntiBio">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.AntiBio" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Resources">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.Resources" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DoctorActivity">
+            <intent-filter>
+                <action android:name="healthyhouseesl.com.wellbeingapp.DoctorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

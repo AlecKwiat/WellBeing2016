@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="healthyhouseesl.com.wellbeingapp.Resources">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/DO1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="DO ask your doctor whether your or your family member's infection will respond to antibiotics.  (If necessary, ask if a lab test is indicated to verify the type of infection."
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space1"
+                android:layout_below="@+id/DO1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DO2"
+                android:layout_below="@+id/Space1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO ask your doctor about antibiotic-resistant bacteria and what you can do to help prevent its occurrence"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space2"
+                android:layout_below="@+id/DO2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DO3"
+                android:layout_below="@+id/Space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO ask your doctor if you are being given only medicine that is needed.  "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space3"
+                android:layout_below="@+id/DO3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DO4"
+                android:layout_below="@+id/Space3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO ask your doctor if the strength of the antibiotic being given is only what is necessary to get a clinical result. "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space4"
+                android:layout_below="@+id/DO4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DO5"
+                android:layout_below="@+id/Space4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO take antibiotics for bacterial infections if the infection is properly diagnosed and the antibiotics are prescribed by a doctor."
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space5"
+                android:layout_below="@+id/DO5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DO6"
+                android:layout_below="@+id/Space5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO follow the exact instructions for taking your antibiotic.  Take the exact amount specified at the time that is specified.  Be sure to take the medicine for the entire time period that your doctor has prescribed.  Stopping too soon could allow the bacteria to become resistant by not killing them completely. Even if you feel better, take all of the medicine! "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space6"
+                android:layout_below="@+id/DO6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DONT1"
+                android:layout_below="@+id/Space6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO NOT pressure your doctor to prescribe an antibiotic"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space7"
+                android:layout_below="@+id/DONT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DONT2"
+                android:layout_below="@+id/Space7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO NOT take antibiotics for the common cold.  Antibiotics won't cure a cold because colds are caused by viruses, not bacteria.  The treatment for a cold is generally rest, plenty of fluids and medicines for fever and headache"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Space8"
+                android:layout_below="@+id/DONT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DONT3"
+                android:layout_below="@+id/Space8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO NOT take antibiotics for viral infections as they have no effect on infections caused by viruses"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space9"
+                android:layout_below="@+id/DONT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DONT4"
+                android:layout_below="@+id/Space9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO NOT take antibiotics unless they have been prescribed by a doctor for a current illness"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space10"
+                android:layout_below="@+id/DONT4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DONT5"
+                android:layout_below="@+id/Space10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO NOT give your antibiotics to other people.  Their illnesses are probably different from yours, and the antibiotic may actually hurt rather than help them"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space11"
+                android:layout_below="@+id/DONT5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DONT6"
+                android:layout_below="@+id/Space11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO NOT take antibiotics simply because you were exposed to someone who was sick.  This could increase your chances of picking up a resistant infection"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space12"
+                android:layout_below="@+id/DONT6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
